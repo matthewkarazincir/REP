@@ -1,5 +1,5 @@
 body{
-	background-image: linear-gradient(#101410, #172422, #1b2f32);
+	background-color: #1b2f32;
 	font-family:'Roboto', Tahoma, Helvetica, Sans-Serif;
 	font-size: 17px;
 	line-height:1.6em;
@@ -46,7 +46,7 @@ body{
 	color:#fff;
 	text-decoration:none;
 	font-size:17px;
-	padding:5px 15px;
+	padding:5px 5px;
 	margin:2px 1em;
 }
 
@@ -57,20 +57,19 @@ body{
 }
 */
 
-a:hover{
-	background-color:#212F3C;
+#navbar a:hover {
+	color:#212F3C;
 }
 
-a:active{
-	background-color:#212F3C;
-	color:#2E86C1;
+#navbar a:active {
+	color:#212F3C;
 }
 
 #home{
 	margin-top:20px;
 	color:#fff;
 	padding:20px;
-	margin-bottom:45%;
+	margin-bottom:15%;
 	line-height:2em;
 }
 
@@ -113,6 +112,30 @@ a:active{
 	}
 	#home-picture{
 		text-align:center;
+	}
+
+}
+
+@media (min-width:1301px){
+	.container-query{
+		background-color:#1e7034;
+		display:flex;
+		justify-content:space-between;
+	}
+
+	#main-header{
+		border-bottom:0px;
+		padding:0 15%;
+	}
+
+	#navbar{
+		padding-right:20%;
+	}
+
+	#nav_list li{
+		align-items:center;
+		padding:0.75em 1em;
+		font-size:20px;
 	}
 }
 
@@ -172,6 +195,18 @@ a:active{
 	margin:5px 0;
 }
 
+.current-page{
+	border-bottom:2px solid #ffffff;
+}
+
+#navbar .current-page:hover{
+	color:#ffffff;
+}
+
+#home-footer{
+	position:absolute;
+	padding-top:5%;
+}
 
 
 

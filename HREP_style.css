@@ -1,19 +1,16 @@
 body{
 	background-image: linear-gradient(#101410, #172422, #1b2f32);
-	font-family:Saira, Tahoma, Helvetica, Sans-Serif;
-	font-size: 15px;
+	font-family:'Roboto', Tahoma, Helvetica, Sans-Serif;
+	font-size: 17px;
 	line-height:1.6em;
 	margin:0;
 	color:#fff;
 }
 
-.head-columns{
-	display:flex;
-}
-
-#logo img{
+.logo img{
 	width:400px;
-	margin-left:5rem;
+	margin-left:1rem;
+	margin-top:1rem;
 }
 
 .clr_flt{
@@ -28,20 +25,21 @@ body{
 
 
 #main-header{
-	background-color:#0a1e26;
-	font-family:Saira, Sans-Serif;
+	background-color:#1e7034;
 	padding-top:20px;
-	padding-bottom:5px;
+	padding-bottom:0px;
 	border-bottom:#fff dashed 4px;
 }
 
 #navbar{
-	font-family:"Saira", Sans-Serif;
-	background-color:#000612;
+	background-color:#1e7034;
 }
 
-#navbar li{
-	display:inline;
+#navbar ul{
+	display:flex;
+	list-style:none;
+	padding:0;
+	justify-content:center;
 }
 
 #navbar a{
@@ -49,8 +47,7 @@ body{
 	text-decoration:none;
 	font-size:17px;
 	padding:5px 15px;
-	border:2px solid #CCD1D1;
-	margin:2px 2px;
+	margin:2px 1em;
 }
 
 /*
@@ -67,7 +64,6 @@ a:hover{
 a:active{
 	background-color:#212F3C;
 	color:#2E86C1;
-
 }
 
 #home{
@@ -78,55 +74,103 @@ a:active{
 	line-height:2em;
 }
 
-#home #info{
+#home .info{
 	box-sizing:border-box;
+	font-size:25px;
 	width:80%; 
+	line-height:1.5em;
 }
 
-/*
-#home-footer{
-	position:fixed;
-	color:#ffffff;
-	width:100%;
-	background-color:#1a3f41;
-	bottom:0px;
-	left:0px;
+.large{
+	font-family:'Montserrat', Sans-Serif;
+	font-size:50px;
+	line-height: 1.2em;
 	text-align:center;
-	font-family:"Saira", Sans-Serif;
 }
-*/
+
 
 #home-picture img{
-	max-width: 80%;
-	min-width: 50%;
-	border: 5px solid #767478;
+	width:80%;
+	border: 10px solid #ffffff;
+	border-radius:25px;
 }
 
 .columns{
 	display: flex;
+	align-items:center;
+	justify-content:space-between;
 }
 
-.curri-head{
+@media (max-width:1300px){
+	.columns{
+		flex-direction: column;
+	}
+	.info h1{
+		text-align:center;
+	}
+	.info{
+		width:100%;
+	}
+	#home-picture{
+		text-align:center;
+	}
+}
+
+.head{
 	font-size:2rem;
 	text-align:center;
-	text-decoration:underline;
-	font-family:Saira, Tahoma, Times;
+	font-family:'Montserrat', Sans-Serif, Tahoma, Times;
 }
+
 
 #curriculum-list li{
 	font-size:1.2rem;
-	font-family:Saira, Tahoma, Times; 
 }
 
-#disclaimer{
+.disclaimer{
 	color:#777778;
 	opacity:0.7;
+	letter-spacing:0.05em;
 }
 
 #title{
 	text-align:right;
 }
 
+.columns_2{
+	display:flex;
+	align-items:flex-start;
+	justify-content:space-between;
+}
+
+#team_logo{
+	width:45%;
+}
+
+#team_picture{
+	width:55%;
+}
+
+#logo{
+	width:50%;
+	padding-left:0;
+	margin-left:25%;
+}
+
+#awtybots_team{
+	width:800px;
+}
+
+.italics{
+	font-style: italic;
+}
+
+.team-subtitle{
+	color:#777777;
+	text-align:center;
+	opacity:0.7;
+	margin:5px 0;
+}
 
 
 

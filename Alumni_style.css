@@ -37,7 +37,14 @@ body{
 }
 #our-team{
     display:block;
-    margin:2rem 0;
+    margin-bottom:1rem;
+    margin-top:2rem;
+}
+
+.discl{
+    color:#b8b2b2;
+    font-style:italic;
+    font-size:0.8rem;
 }
 
 #main-header{
@@ -115,17 +122,21 @@ body{
     width:90%;
     height:auto;
 }
+.memberlist_pic2{
+    width:55%;
+    height:auto;
+}
 
 .columns_1{
     display:flex;
     justify-content:space-around;
-    margin-top:80px;
+    margin-top:45px;
 }
 
 .columns_2{
     display:flex;
     justify-content:space-around;
-    margin-top:80px;
+    margin-top:50px;
     margin-bottom:120px;
 }
 

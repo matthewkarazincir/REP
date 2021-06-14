@@ -72,6 +72,13 @@ body{
 	text-align:center;
 }
 
+.large_2{
+	font-family:'Montserrat', Sans-Serif;
+	font-size:20px;
+	line-height: 1.2em;
+	text-align:left;
+}
+
 
 @media (min-width:1301px){
 	.container-query{
@@ -129,16 +136,6 @@ body{
 	.columns{
 		flex-direction: column;
 	}
-	.info h1{
-		text-align:center;
-	}
-	.info{
-		width:100%;
-	}
-
-	.info p{
-		text-align:center;
-	}
 	#home-picture{
 		text-align:center;
 	}
@@ -147,6 +144,30 @@ body{
 		float:center;
 	}
 
+}
+
+.flex_columns{
+    display:flex;
+}
+
+.group_curriculum{
+    text-align:center;
+    width:100%;
+}
+
+.group_curriculum_pic{
+    width:90%;
+}
+
+.curr-day{
+    margin:10px 0;
+}
+
+.columns_3{
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    margin: 75px 0;
 }
 
 #first img{

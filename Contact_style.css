@@ -65,39 +65,11 @@ body{
 	color:#212F3C;
 }
 
-#home{
-	margin-top:20px;
-	color:#fff;
-	padding:20px;
-	margin-bottom:15%;
-	line-height:2em;
-}
-
-#home .info{
-	box-sizing:border-box;
-	font-size:25px;
-	width:80%; 
-	line-height:1.5em;
-}
-
 .large{
 	font-family:'Montserrat', Sans-Serif;
 	font-size:50px;
 	line-height: 1.2em;
 	text-align:center;
-}
-
-
-#home-picture img{
-	width:80%;
-	border: 10px solid #ffffff;
-	border-radius:25px;
-}
-
-.columns{
-	display: flex;
-	align-items:center;
-	justify-content:space-between;
 }
 
 
@@ -120,61 +92,6 @@ body{
 	}
 }
 
-.head{
-	font-size:2rem;
-	text-align:center;
-	font-family:'Montserrat', Sans-Serif, Tahoma, Times;
-}
-
-
-#curriculum-list li{
-	font-size:1.2rem;
-}
-
-.disclaimer{
-	color:#777778;
-	opacity:0.7;
-	letter-spacing:0.05em;
-}
-
-#title{
-	text-align:right;
-}
-
-.columns_2{
-	display:flex;
-	align-items:flex-start;
-	justify-content:space-between;
-}
-
-#team_logo{
-	width:45%;
-}
-
-#team_picture{
-	width:55%;
-}
-
-#logo{
-	width:50%;
-	padding-left:0;
-	margin-left:25%;
-}
-
-#awtybots_team{
-	width:800px;
-}
-
-.italics{
-	font-style: italic;
-}
-
-.team-subtitle{
-	color:#777777;
-	text-align:center;
-	opacity:0.7;
-	margin:5px 0;
-}
 
 .current-page{
 	border-bottom:2px solid #ffffff;
@@ -184,21 +101,6 @@ body{
 	color:#ffffff;
 }
 
-#home-footer{
-	background-color:#e6ede7;
-	width:100%;
-	height:65px;
-	position:absolute;
-	bottom:0;
-	left:0;
-	align-items:center;
-}
-
-#home-footer p{
-	color:#1b2f32;
-	text-align:center;
-	float:center;
-}
 
 @media (max-width:1300px){
 	.container-query{
@@ -215,20 +117,8 @@ body{
 		width:80%;
 	}
 	
-	.columns{
-		flex-direction: column;
-	}
-	.info h1{
-		text-align:center;
-	}
-	.info{
-		width:100%;
-	}
 
 	.info p{
-		text-align:center;
-	}
-	#home-picture{
 		text-align:center;
 	}
 
@@ -238,13 +128,30 @@ body{
 
 }
 
+.large_2{
+    font-family:'Montserrat', Sans-Serif;
+	font-size:30px;
+	line-height: 1.2em;
+    text-align:center;
+}
+
+.columns{
+    display:flex;
+}
+
+.group_pic{
+    width:90%;
+}
+
+.columns_3{
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    margin: 75px 0;
+}
+
 #first img{
 	height:100px;
 	width:auto;
 }
 
-.columns_2{
-	display:flex;
-	margin-top:10rem;
-	justify-content:space-around;
-}

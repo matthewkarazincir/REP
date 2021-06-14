@@ -14,16 +14,31 @@ body{
 	justify-content:center;
 }
 
-.clr_flt{
-	float:none;
-}
 
 .container{
 	width:70%;
 	margin:auto;
 	overflow:hidden;
+} 
+
+.large{
+	font-family:'Montserrat', Sans-Serif;
+	font-size:50px;
+	line-height: 1.2em;
+	text-align:left;
 }
 
+.large_2{
+    font-family:'Montserrat', Sans-Serif;
+	font-size:50px;
+	line-height: 1.2em;
+    margin-bottom:3rem;
+	text-align:center; 
+}
+#our-team{
+    display:block;
+    margin:2rem 0;
+}
 
 #main-header{
 	background-color:#1e7034;
@@ -65,41 +80,6 @@ body{
 	color:#212F3C;
 }
 
-#home{
-	margin-top:20px;
-	color:#fff;
-	padding:20px;
-	margin-bottom:15%;
-	line-height:2em;
-}
-
-#home .info{
-	box-sizing:border-box;
-	font-size:25px;
-	width:80%; 
-	line-height:1.5em;
-}
-
-.large{
-	font-family:'Montserrat', Sans-Serif;
-	font-size:50px;
-	line-height: 1.2em;
-	text-align:center;
-}
-
-
-#home-picture img{
-	width:80%;
-	border: 10px solid #ffffff;
-	border-radius:25px;
-}
-
-.columns{
-	display: flex;
-	align-items:center;
-	justify-content:space-between;
-}
-
 
 @media (min-width:1301px){
 	.container-query{
@@ -109,7 +89,6 @@ body{
 	}
 
 	#main-header{
-		border-bottom:0px;
 		padding:0;
 	}
 
@@ -120,61 +99,6 @@ body{
 	}
 }
 
-.head{
-	font-size:2rem;
-	text-align:center;
-	font-family:'Montserrat', Sans-Serif, Tahoma, Times;
-}
-
-
-#curriculum-list li{
-	font-size:1.2rem;
-}
-
-.disclaimer{
-	color:#777778;
-	opacity:0.7;
-	letter-spacing:0.05em;
-}
-
-#title{
-	text-align:right;
-}
-
-.columns_2{
-	display:flex;
-	align-items:flex-start;
-	justify-content:space-between;
-}
-
-#team_logo{
-	width:45%;
-}
-
-#team_picture{
-	width:55%;
-}
-
-#logo{
-	width:50%;
-	padding-left:0;
-	margin-left:25%;
-}
-
-#awtybots_team{
-	width:800px;
-}
-
-.italics{
-	font-style: italic;
-}
-
-.team-subtitle{
-	color:#777777;
-	text-align:center;
-	opacity:0.7;
-	margin:5px 0;
-}
 
 .current-page{
 	border-bottom:2px solid #ffffff;
@@ -183,6 +107,81 @@ body{
 #navbar .current-page:hover{
 	color:#ffffff;
 }
+
+.member{
+    text-align:center;
+}
+.memberlist_pic{
+    width:90%;
+    height:auto;
+}
+
+.columns_1{
+    display:flex;
+    justify-content:space-around;
+    margin-top:80px;
+}
+
+.columns_2{
+    display:flex;
+    justify-content:space-around;
+    margin-top:80px;
+    margin-bottom:120px;
+}
+
+.columns_3{
+    display:flex;
+	align-items:flex-start;
+	justify-content:space-between;
+    margin-bottom:50px;
+}
+
+.subtitle{
+    text-align:center;
+    display:block;
+    margin:0.3em 0;
+}
+
+.role{
+    display:block;
+    text-align:center;
+    margin:0.5em 0;
+}
+
+.spacing{
+    padding:100px, 0;
+}
+
+.member_st{
+    display:flex;
+    text-align:center;
+    margin-bottom:75px;
+}
+
+.mekha_pic img{
+    width:90%;
+    height:auto;
+}
+
+.jose_pic img{
+    width:90%;
+    height:auto;
+}
+
+.question{
+    font-style:italic;
+}
+
+.quote{
+    font-size:1.2rem;
+    font-weight:bold;
+}
+
+#first img{
+	height:100px;
+	width:auto;
+}
+
 
 #home-footer{
 	background-color:#e6ede7;
@@ -205,46 +204,11 @@ body{
 		background-color:#1e7034;
 	}
 
-	.logo{
-		display:flex;
-		justify-content:center;
-		margin-bottom: 2rem;
-	}
-
 	.container{
 		width:80%;
-	}
-	
-	.columns{
-		flex-direction: column;
-	}
-	.info h1{
-		text-align:center;
-	}
-	.info{
-		width:100%;
-	}
-
-	.info p{
-		text-align:center;
-	}
-	#home-picture{
-		text-align:center;
 	}
 
 	#main-header .logo img{
 		float:center;
 	}
-
-}
-
-#first img{
-	height:100px;
-	width:auto;
-}
-
-.columns_2{
-	display:flex;
-	margin-top:10rem;
-	justify-content:space-around;
 }
